@@ -5,7 +5,8 @@
 📍 EST Timezone | 💼 Available for Contract Work | 🚀 Building Production AI Systems
 
 [![GitHub](https://img.shields.io/badge/GitHub-bozzdev-181717?logo=github)](https://github.com/bozzdev)
-[![Upwork](https://img.shields.io/badge/Upwork-Top_Rated-6fda44?logo=upwork)](https://upwork.com)
+[![Upwork](https://img.shields.io/badge/Upwork-Top_Rated-6fda44?logo=upwork)](https://www.upwork.com/freelancers/~0106db0a5fb7076794)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-csbosman-0077B5?logo=linkedin)](https://www.linkedin.com/in/csbosman/)
 
 ---
 
@@ -160,8 +161,9 @@ Multi-API orchestration system integrating financial data APIs with automated Go
 **Response Time:** <1 hour during business hours (9 AM - 6 PM EST)
 
 **Contact:**
-- 📧 Email: [Your email here]
-- 💼 Upwork: [Profile link]
+- 📧 Email: cbosman@praxisprotocol.io
+- 💼 Upwork: [Top Rated Freelancer](https://www.upwork.com/freelancers/~0106db0a5fb7076794)
+- 🔗 LinkedIn: [Craig Bosman](https://www.linkedin.com/in/csbosman/)
 - 💻 GitHub: [@bozzdev](https://github.com/bozzdev)
 
 ---
@@ -225,4 +227,4 @@ How I reverse-engineered Solana's 281-byte binary format and achieved 99.9% accu
 
 **Let's build something together.** 🚀
 
-[Contact Me](mailto:your-email@example.com) | [View Projects](./projects/) | [Read Case Studies](./case-studies/)
+[Contact Me](mailto:cbosman@praxisprotocol.io) | [View Projects](./projects/) | [Read Case Studies](./case-studies/)

@@ -27,12 +27,12 @@ I excel at:
 ## 📧 How to Reach Me
 
 **Primary:**
-- 📧 **Email:** [your-email@example.com]
-- 💼 **Upwork:** [Your Upwork profile URL]
+- 📧 **Email:** cbosman@praxisprotocol.io
+- 💼 **Upwork:** https://www.upwork.com/freelancers/~0106db0a5fb7076794
 
 **Professional:**
 - 💻 **GitHub:** [@bozzdev](https://github.com/bozzdev)
-- 🔗 **LinkedIn:** [Your LinkedIn URL]
+- 🔗 **LinkedIn:** https://www.linkedin.com/in/csbosman/
 
 ---
 

@@ -210,6 +210,23 @@ Complete deep dive into the technical architecture, implementation timeline, and
 
 ---
 
+### [Anubis Bot: Building a $480/month SaaS in Production](./case-studies/anubis-bot.md)
+
+**Lessons learned building and maintaining a 71-microservice cryptocurrency platform serving 31 paying subscribers**
+
+Complete story of building a production-grade cryptocurrency intelligence platform that achieved 99%+ uptime over 220 days while processing 54,000 events daily. Includes technical architecture, ML pipeline design, revenue model, and strategic shutdown decision.
+
+**Key Highlights:**
+- 71 microservices orchestrated via SystemD
+- 29GB PostgreSQL database with 1.86M tokens tracked
+- 5-model ML ensemble with outcome tracking
+- Stripe + Solana Pay revenue implementation
+- Strategic pivot analysis and business lessons
+
+[Read Full Case Study →](./case-studies/anubis-bot.md)
+
+---
+
 ## 🎓 Background
 
 **Experience:**

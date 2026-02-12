@@ -1,0 +1,19 @@
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Build files
+node_modules/
+dist/
+build/
+
+# Sensitive data (if any)
+.env
+*.key
+credentials.json

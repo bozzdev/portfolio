@@ -38,9 +38,9 @@ End-to-end automation system reducing Upwork proposal work from 10+ hours/week t
 ---
 
 ### [Anubis Bot](./projects/anubis-bot/) - Cryptocurrency Intelligence Platform
-**99% uptime | $480/month MRR | 54,000 events/day**
+**99% uptime | $480/month MRR | 54,000 events/day** | 🗄️ *Archived*
 
-71-microservice production system processing cryptocurrency market data in real-time, serving 31 paying subscribers via Stripe integration.
+71-microservice production system that processed cryptocurrency market data in real-time, serving 31 paying subscribers via Stripe integration.
 
 - **Scale:** 29GB PostgreSQL database, 1.86M rows, 54K events/day
 - **Reliability:** 99% uptime over 220 consecutive days, zero data loss
@@ -52,7 +52,7 @@ End-to-end automation system reducing Upwork proposal work from 10+ hours/week t
 ---
 
 ### [Praxis Bot](./projects/praxis-bot/) - Solana DeFi Monitoring
-**99.9% accuracy | Zero data loss | 30-second real-time updates**
+**99.9% accuracy | Zero data loss | 30-second real-time updates** | 🗄️ *Archived*
 
 Production Solana blockchain monitoring system with 99.9% accuracy versus professional trading platforms.
 
@@ -183,11 +183,11 @@ I understand ROI, not just code. Built $480/month MRR system, understand custome
 EST timezone with <1 hour response times. Same-day responses, daily updates, proactive problem notification.
 
 **Proven Track Record:**
-- 99% uptime over 220 days (Anubis Bot)
-- 99.9% accuracy vs professional platforms (Praxis Bot)
-- 80% time reduction (FreelanceOS)
-- <$5/month AWS costs (Docira)
-- Currently serving paying clients (Financial Data Pipeline)
+- 99% uptime over 220 days (Anubis Bot - archived)
+- 99.9% accuracy vs professional platforms (Praxis Bot - archived)
+- 80% time reduction (FreelanceOS - active)
+- <$5/month AWS costs (Docira - active)
+- Currently serving paying clients (Financial Data Pipeline - active)
 
 ---
 

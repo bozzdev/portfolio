@@ -2,7 +2,7 @@
 
 > Production SaaS | 99% Uptime | $480/month MRR | 31 Paying Subscribers
 
-**Built:** 2024 | **Timeline:** 3 months | **Status:** Shut down after 220 days (profitable run)
+**Built:** 2024 | **Timeline:** 3 months | **Status:** Archived (ran profitably for 220 days)
 
 ---
 

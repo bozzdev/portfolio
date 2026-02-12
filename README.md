@@ -3,9 +3,10 @@
 **Full-Stack Developer & AI Automation Specialist**
 
 📍 EST Timezone | 💼 Available for Contract Work | 🚀 Building Production AI Systems
+⭐ **Upwork Rising Talent** (Top 5% of New Freelancers - Feb 2026)
 
 [![GitHub](https://img.shields.io/badge/GitHub-bozzdev-181717?logo=github)](https://github.com/bozzdev)
-[![Upwork](https://img.shields.io/badge/Upwork-Top_Rated-6fda44?logo=upwork)](https://www.upwork.com/freelancers/~0106db0a5fb7076794)
+[![Upwork](https://img.shields.io/badge/Upwork-Rising_Talent-6fda44?logo=upwork)](https://www.upwork.com/freelancers/~0106db0a5fb7076794)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-csbosman-0077B5?logo=linkedin)](https://www.linkedin.com/in/csbosman/)
 
 ---
@@ -117,6 +118,7 @@ Multi-API orchestration system integrating financial data APIs with automated Go
 
 | Metric | Achievement |
 |--------|-------------|
+| **Upwork Recognition** | ⭐ Rising Talent (Top 5% of New Freelancers - Feb 2026) |
 | **Production Uptime** | 99%+ (Anubis Bot: 220 days, Praxis Bot: 15+ deployments) |
 | **Revenue Generated** | $480/month MRR (Anubis Bot subscribers) |
 | **Time Saved** | 8-10 hours/week (FreelanceOS automation) |

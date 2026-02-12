@@ -6,7 +6,7 @@
 ⭐ **Upwork Rising Talent** (Top 5% of New Freelancers - Feb 2026)
 
 [![GitHub](https://img.shields.io/badge/GitHub-bozzdev-181717?logo=github)](https://github.com/bozzdev)
-[![Upwork](https://img.shields.io/badge/Upwork-Rising_Talent-6fda44?logo=upwork)](https://www.upwork.com/freelancers/~0106db0a5fb7076794)
+[![Upwork](https://img.shields.io/badge/Upwork-Rising_Talent-6fda44?logo=upwork)](https://www.upwork.com/freelancers/~0106db0a5fb7076794?utm_source=portfolio&utm_medium=badge&utm_campaign=portfolio_header)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-csbosman-0077B5?logo=linkedin)](https://www.linkedin.com/in/csbosman/)
 
 ---
@@ -152,8 +152,13 @@ Multi-API orchestration system integrating financial data APIs with automated Go
 
 **Availability:** Open to contract work (fixed-price or hourly)
 
+**Start Here:**
+- 💡 **[Book $75 Technical Consultation](https://www.upwork.com/freelancers/~0106db0a5fb7076794?utm_source=portfolio&utm_medium=contact_section&utm_campaign=technical_consultation)** - 30-minute feasibility assessment (credited toward project if hired)
+- 💼 **[Hire on Upwork](https://www.upwork.com/freelancers/~0106db0a5fb7076794?utm_source=portfolio&utm_medium=hire_link&utm_campaign=portfolio_contact)** - Rising Talent freelancer
+- 📧 **Email:** [cbosman@praxisprotocol.io](mailto:cbosman@praxisprotocol.io) - Direct contact
+
 **Best For:**
-- AI integration projects (Claude API, OpenAI, custom prompts)
+- AI integration projects (Claude API, OpenAI, Grok API, custom prompts)
 - Workflow automation (n8n, Zapier, complex orchestration)
 - Production systems requiring 99%+ uptime
 - Telegram bot development (webhooks, payments, complex interactions)
@@ -162,9 +167,7 @@ Multi-API orchestration system integrating financial data APIs with automated Go
 
 **Response Time:** <1 hour during business hours (9 AM - 6 PM EST)
 
-**Contact:**
-- 📧 Email: cbosman@praxisprotocol.io
-- 💼 Upwork: [Top Rated Freelancer](https://www.upwork.com/freelancers/~0106db0a5fb7076794)
+**Other Platforms:**
 - 🔗 LinkedIn: [Craig Bosman](https://www.linkedin.com/in/csbosman/)
 - 💻 GitHub: [@bozzdev](https://github.com/bozzdev)
 
@@ -246,6 +249,55 @@ Complete documentation of reverse-engineering methodology for parsing Solana blo
 
 ---
 
+## 💡 Technical Feasibility Consultations
+
+**Not sure if your AI/automation project is technically feasible?** Get expert assessment before committing to full development.
+
+### 30-Minute Technical Assessment - $75
+
+**What You'll Get:**
+- ✅ Technical approach recommendation (specific technologies & architecture)
+- ✅ Timeline & cost estimates (realistic, not theoretical)
+- ✅ Risk assessment (what could go wrong, how to mitigate)
+- ✅ Go/no-go recommendation (honest evaluation)
+- ✅ Written summary with actionable next steps
+
+**💰 Consultation Fee Credit:**
+If you hire me for the full project within 30 days, your **$75 consultation fee is fully credited** toward the project cost. Zero risk.
+
+### Process:
+1. **Submit project details** via Upwork
+2. **I review and prepare assessment** (24 hours)
+3. **30-minute consultation call** (Zoom/Google Meet)
+4. **Receive written assessment** within 2 business days
+
+### Best For:
+- 🏢 Teams evaluating AI integration feasibility (Claude API, OpenAI, automation)
+- 💼 Companies needing expert validation before budget approval
+- 🔍 Projects requiring independent technical assessment
+- 🤔 Second opinions on proposed technical approaches
+- ⚡ Fast evaluation needed (assessment within 48 hours)
+
+### Why Trust My Assessment?
+
+**Production-grade expertise, not theoretical knowledge:**
+- Built and operated **71-microservice cryptocurrency platform** with 99% uptime over 220 days
+- Currently running **AWS serverless systems** processing 54,000+ events daily
+- Automated **complex multi-API workflows** saving 8-10 hours/week
+- Real experience with **AI integration** (Claude, OpenAI, Grok), not just tutorials
+
+**I give honest recommendations** - if your project isn't technically feasible or cost-effective, I'll tell you upfront.
+
+---
+
+### 📅 Book Your Technical Consultation
+
+**[Book Consultation on Upwork →](https://www.upwork.com/freelancers/~0106db0a5fb7076794?utm_source=portfolio&utm_medium=consultation_cta&utm_campaign=technical_consultation)**
+
+Or email me for more info: [cbosman@praxisprotocol.io](mailto:cbosman@praxisprotocol.io?subject=Technical%20Consultation%20Inquiry)
+
+---
+
 ## 🎓 Background
 
 **Experience:**
@@ -269,4 +321,4 @@ Complete documentation of reverse-engineering methodology for parsing Solana blo
 
 **Let's build something together.** 🚀
 
-[Contact Me](mailto:cbosman@praxisprotocol.io) | [View Projects](./projects/)
+**[Book $75 Consultation](https://www.upwork.com/freelancers/~0106db0a5fb7076794?utm_source=portfolio&utm_medium=footer_cta&utm_campaign=technical_consultation)** | [Contact Me](mailto:cbosman@praxisprotocol.io) | [View Projects](./projects/)

@@ -2,6 +2,8 @@
 
 **Featured production systems by Craig Bosman**
 
+💡 **Need technical guidance?** [Book a $75 consultation](https://www.upwork.com/freelancers/~0106db0a5fb7076794?utm_source=portfolio&utm_medium=projects_page&utm_campaign=technical_consultation) - 30-minute feasibility assessment, fully credited if you hire me for the project.
+
 ---
 
 ## 🚀 Production Systems

@@ -191,6 +191,25 @@ EST timezone with <1 hour response times. Same-day responses, daily updates, pro
 
 ---
 
+## 📚 Case Studies
+
+### [FreelanceOS: 80% Time Reduction Through AI Automation](./case-studies/freelanceos.md)
+
+**How I automated my entire Upwork workflow from 10+ hours/week to under 2 hours using n8n, Claude API, and Telegram Bot**
+
+Complete deep dive into the technical architecture, implementation timeline, and business impact of building an intelligent job screening and proposal generation system. Includes evaluation framework, proposal templates, performance metrics, and lessons learned.
+
+**Key Highlights:**
+- 100-point job evaluation matrix
+- Automated proposal generation with 95%+ first-draft quality
+- Real-time Telegram notifications
+- Time savings breakdown and ROI analysis
+- Future enhancement roadmap
+
+[Read Full Case Study →](./case-studies/freelanceos.md)
+
+---
+
 ## 🎓 Background
 
 **Experience:**

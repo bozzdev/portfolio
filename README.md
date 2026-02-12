@@ -227,6 +227,23 @@ Complete story of building a production-grade cryptocurrency intelligence platfo
 
 ---
 
+### [Praxis Bot: 99.9% Accuracy Through Binary Data Reverse Engineering](./case-studies/praxis-bot.md)
+
+**How I reverse-engineered Solana's 281-byte binary format and achieved 99.9% accuracy vs professional platforms**
+
+Complete documentation of reverse-engineering methodology for parsing Solana blockchain transaction binaries. Includes systematic approach to format discovery, hypothesis testing, edge case handling, and continuous validation resulting in higher accuracy than commercial alternatives.
+
+**Key Highlights:**
+- 281-byte binary format completely reverse-engineered
+- 99.9% accuracy validated against 1.5M+ transactions
+- Sub-millisecond parsing latency
+- Competitive comparison vs Helius, QuickNode, dexscreener
+- MEV detection and specialized capabilities
+
+[Read Full Case Study →](./case-studies/praxis-bot.md)
+
+---
+
 ## 🎓 Background
 
 **Experience:**

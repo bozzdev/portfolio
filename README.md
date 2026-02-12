@@ -16,8 +16,8 @@ I'm a full-stack developer specializing in **AI-augmented automation systems** t
 
 **What makes me different:**
 - 🏗️ **Production focus** - I ship systems that handle real users and real money (99%+ uptime proven)
-- ⚡ **AI augmentation** - 6x delivery speed advantage through strategic Claude API integration
-- 📱 **Mobile-first** - 95% of my work happens from my phone during fragmented blocks (homeschool parent)
+- ⚡ **AI augmentation** - 6x delivery speed advantage through strategic AI integration (Claude, OpenAI, Grok)
+- 🤖 **Multi-AI approach** - Leverage different AI models for different strengths (Claude for reasoning, Grok for real-time data)
 - 💡 **Business thinking** - I understand ROI, not just code (built $480/month MRR system)
 
 ---
@@ -107,7 +107,7 @@ Multi-API orchestration system integrating financial data APIs with automated Go
 **Languages & Tools:**
 - **Languages:** Python (expert), JavaScript/Node.js, SQL
 - **Frameworks:** Flask, React, n8n, Docker
-- **APIs:** Claude, OpenAI, Telegram, ClickUp, Stripe, AWS
+- **APIs:** Claude, OpenAI, Grok, Telegram, ClickUp, Stripe, AWS
 - **Databases:** PostgreSQL, Redis
 - **DevOps:** Docker Compose, SystemD, DigitalOcean, AWS
 
@@ -191,25 +191,12 @@ EST timezone with <1 hour response times. Same-day responses, daily updates, pro
 
 ---
 
-## 📚 Case Studies
-
-**[FreelanceOS: 80% Time Reduction Through AI Automation](./case-studies/freelanceos.md)**
-How I automated my entire Upwork workflow from 10+ hours/week to under 2 hours using n8n, Claude API, and Telegram Bot.
-
-**[Anubis Bot: Building a $480/month SaaS in Production](./case-studies/anubis-bot.md)**
-Lessons learned building and maintaining a 71-microservice cryptocurrency platform serving 31 paying subscribers.
-
-**[Praxis Bot: 99.9% Accuracy Through Binary Data Reverse Engineering](./case-studies/praxis-bot.md)**
-How I reverse-engineered Solana's 281-byte binary format and achieved 99.9% accuracy vs professional platforms.
-
----
-
 ## 🎓 Background
 
 **Experience:**
-- Full-stack development (10+ years)
+- Full-stack development (6 years)
 - Production systems architecture
-- AI/ML integration (Claude API, OpenAI)
+- AI/ML integration (Claude API, OpenAI, Grok API)
 - Teaching background (educational technology)
 
 **Domain Expertise:**
@@ -219,12 +206,12 @@ How I reverse-engineered Solana's 281-byte binary format and achieved 99.9% accu
 - Workflow automation (n8n, event-driven systems)
 
 **Personal:**
-- Homeschool parent (4 kids)
-- EST timezone (Pennsylvania)
-- Mobile-first workflow (95% from phone)
+- Homeschool parent (5 kids)
+- EST timezone (North Carolina)
+- Flexible schedule with focused development blocks
 
 ---
 
 **Let's build something together.** 🚀
 
-[Contact Me](mailto:cbosman@praxisprotocol.io) | [View Projects](./projects/) | [Read Case Studies](./case-studies/)
+[Contact Me](mailto:cbosman@praxisprotocol.io) | [View Projects](./projects/)

@@ -52,6 +52,23 @@ End-to-end automation system reducing Upwork proposal work from 10+ hours/week t
 
 ---
 
+### [Pawnprint](./projects/pawnprint/) - AI Chess Coaching Platform
+**99% uptime | 5.4M puzzles | 8,543-chunk RAG corpus | Live at pawnprint.com**
+
+AI chess coaching platform for kids where LLM hallucination is prevented 
+architecturally — Stockfish evaluates positions, a deterministic rule engine 
+maps output to teaching concepts, Gemini Flash translates to age-appropriate 
+language. Never the other way around.
+
+- **Scale:** 5.4M indexed Lichess puzzles, 8,543 enriched RAG chunks
+- **Reliability:** 99% uptime, $60/month infrastructure
+- **Innovation:** Three-layer deterministic + LLM pipeline; per-user vocabulary acquisition tracking
+- **Tech:** Next.js 14, TypeScript, Turso, Stockfish 18, Gemini 2.5 Flash, SM-2, Glicko-1
+
+[View Details →](./projects/pawnprint/)
+
+---
+
 ### [Praxis Bot](./projects/praxis-bot/) - Solana DeFi Monitoring
 **99.9% accuracy | Zero data loss | 30-second real-time updates** | 🗄️ *Archived*
 

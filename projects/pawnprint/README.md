@@ -1,0 +1,139 @@
+# Pawnprint
+
+**AI chess coaching platform for kids — live at [pawnprint.com](https://pawnprint.com)**
+
+**Built:** 2025–2026 | **Status:** Live — Phase 0 tester program
+
+---
+
+## Overview
+
+Pawnprint is an AI chess coaching platform targeting children ages 7–17. It turns 
+a player's own games into a personalized training plan — blunder puzzles scheduled 
+via spaced repetition, coached in language matched to the learner's age and 
+vocabulary level.
+
+**The core problem it solves:** LLM-powered chess tools hallucinate. Language 
+models cannot reliably evaluate chess positions, which makes them dangerous 
+in a learning product for children. Pawnprint's architecture makes this 
+impossible by design, not by instruction.
+
+---
+
+## The Problem
+
+Chess improvement tools fall into two categories: generic platforms (Lichess, 
+Chess.com) that serve adult-level content to all ages, and human coaching at 
+$50–150/hour that most families can't sustain. Neither option adapts to a 
+specific player's mistakes, age, or vocabulary level.
+
+LLM-based alternatives introduce a new problem: models confidently describe 
+tactics that don't exist on the board. For a child learning the game, that's 
+actively harmful.
+
+---
+
+## The Solution
+
+A three-layer pipeline that enforces strict separation between chess analysis 
+and language generation:
+
+1. **Stockfish** evaluates every position deterministically — no language model 
+   involved at this stage
+2. **A deterministic rule engine** maps engine output to teaching concepts 
+   ("your rook was undefended", "you missed a fork after trading queens") — 
+   still no language model
+3. **Gemini 2.5 Flash** translates those pre-analyzed facts into age-appropriate 
+   language — the LLM's job is translation only, never analysis
+
+The LLM receives a structured object of pre-computed facts. There is no path 
+in the system for it to perform chess analysis, regardless of what it might 
+otherwise generate.
+
+---
+
+## Key Features
+
+**Personalized blunder puzzles**
+Games imported from Chess.com are analyzed by Stockfish. Each blunder becomes 
+an SM-2 scheduled puzzle tied to the specific position where the player went 
+wrong — not generic tactics, their actual mistakes.
+
+**5.4 million puzzle library**
+Training pulls from a 5.4M Lichess puzzle corpus difficulty-matched via 
+Glicko-1 rating, benchmarked against Chess.com global percentiles sampled 
+from 9 community clubs. Players get puzzles at the right difficulty, not 
+arbitrary buckets.
+
+**Age-adaptive coaching language**
+Four age brackets (under 10, 10–14, teen, adult). The system tracks each 
+user's chess vocabulary acquisition — introduced, reinforcing, acquired — 
+across 7 exposures per term. Every coaching response is constructed from 
+what this specific user already knows and what they don't yet.
+
+**RAG-grounded explanations**
+Coaching responses are grounded in 8,543 enriched chunks from classical 
+chess literature via FTS5 BM25 retrieval. The same tactical theme retrieves 
+different passages for different age brackets.
+
+**Archetype-aware session planning**
+Players are profiled by learning archetype — attacker, puzzle-solver, 
+competitor — which influences retrieval ranking and session composition.
+
+---
+
+## Production Metrics
+
+| Metric | Value |
+|--------|-------|
+| Live URL | pawnprint.com |
+| Uptime | 99% |
+| Infrastructure cost | $60/month |
+| RAG knowledge chunks | 8,543 |
+| Puzzles indexed | 5.4 million |
+| Age brackets | 4 |
+| Phase 0 testers | 7 |
+| Tester retention | 100% |
+| Billing | Stripe (pre-revenue phase) |
+
+---
+
+## Tech Stack
+
+| Layer | Technology |
+|-------|-----------|
+| Frontend + API | Next.js 14 (App Router), TypeScript, Tailwind |
+| Database | Turso (libSQL + FTS5) |
+| Chess engine | Stockfish 18 (WASM + native binary) |
+| Chess logic | chess.js |
+| Coaching LLM | Gemini 2.5 Flash |
+| Index-time generation | Claude Haiku 4.5 |
+| Spaced repetition | SM-2 |
+| Puzzle rating | Glicko-1 |
+| Auth | JWT + TOTP 2FA |
+| Infrastructure | DigitalOcean, PM2, Cloudflare Tunnel |
+| CI/CD | GitHub SSH deploys |
+
+---
+
+## What Made This Hard
+
+**Preventing hallucination architecturally.** The standard approach — instruct 
+the model not to make things up — doesn't hold reliably in a product children 
+depend on for accurate instruction. The solution was to remove the possibility 
+at the system design level, not the prompt level.
+
+**Age-bracketed retrieval at query time.** The same tactical theme requires 
+genuinely different explanations for a 7-year-old versus an adult. Built a 
+multi-factor retrieval ranking system that produces different top results for 
+the same query depending on the learner's profile.
+
+**Vocabulary scaffolding at scale.** Tracking term acquisition state per user 
+across an open-ended chess vocabulary, then dynamically constructing each 
+coaching prompt from that state, required careful schema design and prompt 
+architecture to remain consistent across millions of potential query combinations.
+
+---
+
+*Pawnprint is in active development. Phase 1 (paid launch) planned following 
+Phase 0 tester validation.*

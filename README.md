@@ -120,11 +120,12 @@ Multi-API orchestration system integrating financial data APIs with automated Go
 - 💬 **Chatbot Development** - Telegram bots, mobile-first interfaces
 - ☁️ **AWS/Serverless** - Lambda, S3, API Gateway, cost-optimized architectures
 - 🗄️ **Database Design** - PostgreSQL optimization, large-scale data management
+- ⚡ **Full-Stack TypeScript** - Next.js 14 App Router, Turso/libSQL, production deployments
 - 🔗 **Blockchain/DeFi** - Solana, binary data parsing, real-time monitoring
 
 **Languages & Tools:**
-- **Languages:** Python (expert), JavaScript/Node.js, SQL
-- **Frameworks:** Flask, React, n8n, Docker
+- **Languages:** Python (expert), JavaScript/Node.js, TypeScript, SQL
+- **Frameworks:** Flask, React, Next.js, n8n, Docker
 - **APIs:** Claude, OpenAI, Grok, Telegram, ClickUp, Stripe, AWS
 - **Databases:** PostgreSQL, Redis
 - **DevOps:** Docker Compose, SystemD, DigitalOcean, AWS
@@ -141,7 +142,8 @@ Multi-API orchestration system integrating financial data APIs with automated Go
 | **Time Saved** | 8-10 hours/week (FreelanceOS automation) |
 | **Data Scale** | 54,000 events/day, 29GB database, 1.86M rows |
 | **Accuracy** | 99.9% (Praxis Bot vs professional platforms) |
-| **Cost Efficiency** | <$5/month (Docira serverless architecture) |
+| **Pawnprint** | 5.4M puzzles, 8,543 RAG chunks, 99% uptime, $60/month, 100% tester retention |
+| **Cost Efficiency** | $24/month (Docira serverless architecture) |
 | **Speed Advantage** | 6x delivery (AI augmentation) |
 
 ---
@@ -152,7 +154,7 @@ Multi-API orchestration system integrating financial data APIs with automated Go
 1. **Understand the business problem** - Not just technical requirements
 2. **Design for production** - 99%+ uptime, real transactions, zero data loss
 3. **Build iteratively** - Ship fast, iterate based on real usage
-4. **Optimize for cost** - <$5/month AWS, strategic resource usage
+4. **Optimize for cost** - - $24/month AWS costs (Docira - active)
 5. **Mobile-first** - Systems I can manage from my phone
 
 **What You Get:**
@@ -210,7 +212,7 @@ EST timezone with <1 hour response times. Same-day responses, daily updates, pro
 - 80% time reduction (FreelanceOS - active)
 - <$5/month AWS costs (Docira - active)
 - Currently serving paying clients (Financial Data Pipeline - active)
-
+- 99% uptime, 100% tester retention (Pawnprint - active, pawnprint.com)
 ---
 
 ## 📚 Case Studies

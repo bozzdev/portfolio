@@ -69,6 +69,23 @@ language. Never the other way around.
 
 ---
 
+### [TalentSignals](./projects/talentsignals/) - B2B Competitive Intelligence Platform
+**4/4 milestones delivered | 39/39 tests passing | Zero human effort per cycle**
+
+Fully automated pipeline delivering monthly branded PDF competitive intelligence
+reports to GCC financial services clients. Four-stage architecture: Enrichlayer +
+Apify + Playwright data collection → two-pass Claude API analysis → ReportLab PDF
+generation → SendGrid delivery with Stripe billing.
+
+- **Automation:** 0 human hours per monthly cycle after client onboarding
+- **AI Pipeline:** Two-pass Claude architecture — structured extraction then insight generation
+- **Reliability:** 39/39 tests passing, live Stripe billing, delivery audited via SendGrid webhooks
+- **Tech:** Python, FastAPI, Supabase, Railway, Claude API, ReportLab, Stripe, SendGrid
+
+[View Details →](./projects/talentsignals/)
+
+---
+
 ### [Praxis Bot](./projects/praxis-bot/) - Solana DeFi Monitoring
 **99.9% accuracy | Zero data loss | 30-second real-time updates** | 🗄️ *Archived*
 

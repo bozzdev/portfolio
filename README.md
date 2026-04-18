@@ -1,6 +1,6 @@
 # Craig Bosman
 
-**Full-Stack Developer & AI Automation Specialist**
+**Full-Stack Developer & AI Systems Specialist**
 
 📍 EST Timezone | 💼 Available for Contract Work | 🚀 Building Production AI Systems
 ⭐ **Upwork Rising Talent** (Top 5% of New Freelancers - Feb 2026)
@@ -13,35 +13,65 @@
 
 ## 👋 About Me
 
-I'm a full-stack developer specializing in **AI-augmented automation systems** that solve real business problems. I build production-grade systems that run 24/7, process real transactions, and generate measurable ROI.
+I build production AI systems — full-stack products, automated pipelines, and
+intelligent infrastructure that runs without babysitting. My work spans consumer
+products (a live chess coaching app for kids), B2B automation (a fully hands-off
+intelligence platform for financial services clients), and large-scale data
+systems (71 microservices, 54K events/day, paying subscribers).
 
 **What makes me different:**
-- 🏗️ **Production focus** - I ship systems that handle real users and real money (99%+ uptime proven)
-- ⚡ **AI augmentation** - 6x delivery speed advantage through strategic AI integration (Claude, OpenAI, Grok)
-- 🤖 **Multi-AI approach** - Leverage different AI models for different strengths (Claude for reasoning, Grok for real-time data)
-- 💡 **Business thinking** - I understand ROI, not just code (built $480/month MRR system)
+- 🏗️ **Production standards** — I ship systems with 99%+ uptime, real transactions,
+  and comprehensive error handling. Not MVPs. Not demos.
+- 🤖 **AI architecture depth** — I design AI pipelines where models do the right job:
+  deterministic engines for analysis, LLMs for language. Hallucination-proof by design.
+- 🎯 **Full-stack ownership** — From Next.js frontend to Python backend to Railway/AWS
+  deployment. One person, complete delivery.
+- 💡 **Teaching background** — I homeschool five kids and built an edtech product from
+  that experience. I understand how people learn, not just how systems work.
 
 ---
 
 ## 🚀 Featured Projects
 
-### [FreelanceOS](./projects/freelanceos/) - AI-Powered Upwork Automation
-**80% time reduction | 10-minute response time | Mobile-first workflow**
+### [Pawnprint](./projects/pawnprint/) - AI Chess Coaching Platform
+**Live at [pawnprint.com](https://pawnprint.com) | 99% uptime | 5.4M puzzles | 8,543-chunk RAG corpus**
 
-End-to-end automation system reducing Upwork proposal work from 10+ hours/week to under 2 hours. Built with n8n, Claude Sonnet 4.5 API, ClickUp, and Telegram Bot.
+AI chess coaching platform for kids where LLM hallucination is prevented
+architecturally — Stockfish evaluates positions, a deterministic rule engine
+maps output to teaching concepts, Gemini Flash translates to age-appropriate
+language. Never the other way around.
 
-- **Impact:** 8-10 hours/week saved ($800-1,000/week value)
-- **Tech:** n8n, Claude API, ClickUp API, Telegram Bot, Docker, PostgreSQL
-- **Innovation:** External prompts system - edit AI behavior via text files, no code changes
+- **Scale:** 5.4M indexed Lichess puzzles, 8,543 enriched RAG chunks from classical chess literature
+- **Reliability:** 99% uptime, $60/month infrastructure, 100% Phase-0 tester retention
+- **Innovation:** Three-layer deterministic + LLM pipeline; per-user vocabulary acquisition tracking across 7 exposures
+- **Tech:** Next.js 14, TypeScript, Turso, Stockfish 18, Gemini 2.5 Flash, SM-2, Glicko-1
 
-[View Case Study →](./projects/freelanceos/)
+[View Details →](./projects/pawnprint/)
+
+---
+
+### [TalentSignals](./projects/talentsignals/) - B2B Competitive Intelligence Platform
+**4/4 milestones delivered | 39/39 tests passing | Fully automated monthly pipeline**
+
+Fully automated pipeline delivering monthly branded PDF competitive intelligence
+reports to GCC financial services clients. Four-stage architecture: Enrichlayer +
+Apify + Playwright data collection → two-pass Claude API analysis → ReportLab PDF
+generation → SendGrid delivery with Stripe billing.
+
+- **Automation:** Fully automated monthly cycle after client onboarding
+- **AI Pipeline:** Two-pass Claude architecture — structured extraction then insight generation
+- **Reliability:** 39/39 tests passing, live Stripe billing, delivery audited via SendGrid webhooks
+- **Tech:** Python, FastAPI, Supabase, Railway, Claude API, ReportLab, Stripe, SendGrid
+
+[View Details →](./projects/talentsignals/)
 
 ---
 
 ### [Anubis Bot](./projects/anubis-bot/) - Cryptocurrency Intelligence Platform
 **99% uptime | $480/month MRR | 54,000 events/day** | 🗄️ *Archived*
 
-71-microservice production system that processed cryptocurrency market data in real-time, serving 31 paying subscribers via Stripe integration.
+71-microservice production system that processed cryptocurrency market data in real-time,
+serving 31 paying subscribers via Stripe integration.
 
 - **Scale:** 29GB PostgreSQL database, 1.86M rows, 54K events/day
 - **Reliability:** 99% uptime over 220 consecutive days, zero data loss
@@ -52,44 +82,40 @@ End-to-end automation system reducing Upwork proposal work from 10+ hours/week t
 
 ---
 
-### [Pawnprint](./projects/pawnprint/) - AI Chess Coaching Platform
-**99% uptime | 5.4M puzzles | 8,543-chunk RAG corpus | Live at pawnprint.com**
+### [FreelanceOS](./projects/freelanceos/) - AI-Powered Upwork Automation
+**80% time reduction | 10-minute response time | Mobile-first workflow**
 
-AI chess coaching platform for kids where LLM hallucination is prevented 
-architecturally — Stockfish evaluates positions, a deterministic rule engine 
-maps output to teaching concepts, Gemini Flash translates to age-appropriate 
-language. Never the other way around.
+End-to-end automation system reducing Upwork proposal work from 10+ hours/week to
+under 2 hours. Built with n8n, Claude Sonnet 4.5 API, ClickUp, and Telegram Bot.
 
-- **Scale:** 5.4M indexed Lichess puzzles, 8,543 enriched RAG chunks
-- **Reliability:** 99% uptime, $60/month infrastructure
-- **Innovation:** Three-layer deterministic + LLM pipeline; per-user vocabulary acquisition tracking
-- **Tech:** Next.js 14, TypeScript, Turso, Stockfish 18, Gemini 2.5 Flash, SM-2, Glicko-1
+- **Impact:** 8-10 hours/week saved ($800-1,000/week value)
+- **Tech:** n8n, Claude API, ClickUp API, Telegram Bot, Docker, PostgreSQL
+- **Innovation:** External prompts system - edit AI behavior via text files, no code changes
 
-[View Details →](./projects/pawnprint/)
+[View Case Study →](./projects/freelanceos/)
 
 ---
 
-### [TalentSignals](./projects/talentsignals/) - B2B Competitive Intelligence Platform
-**4/4 milestones delivered | 39/39 tests passing | Zero human effort per cycle**
+### [Docira](./projects/docira/) - AWS Serverless RAG System
+**90-minute build | $24/month infrastructure | 100+ MB PDFs**
 
-Fully automated pipeline delivering monthly branded PDF competitive intelligence
-reports to GCC financial services clients. Four-stage architecture: Enrichlayer +
-Apify + Playwright data collection → two-pass Claude API analysis → ReportLab PDF
-generation → SendGrid delivery with Stripe billing.
+Complete AWS serverless RAG pipeline built in 90 minutes despite never using AWS
+before. Production-ready on first deployment.
 
-- **Automation:** 0 human hours per monthly cycle after client onboarding
-- **AI Pipeline:** Two-pass Claude architecture — structured extraction then insight generation
-- **Reliability:** 39/39 tests passing, live Stripe billing, delivery audited via SendGrid webhooks
-- **Tech:** Python, FastAPI, Supabase, Railway, Claude API, ReportLab, Stripe, SendGrid
+- **Speed:** Concept to production in 90 minutes (learning AWS from scratch)
+- **Scale:** Handles 100+ MB PDF files, multi-level extraction fallback
+- **Cost:** $24/month AWS costs (Lambda + S3 + API Gateway)
+- **Tech:** AWS Lambda, S3, API Gateway, Claude API, React, Tailwind CSS
 
-[View Details →](./projects/talentsignals/)
+[View Details →](./projects/docira/)
 
 ---
 
 ### [Praxis Bot](./projects/praxis-bot/) - Solana DeFi Monitoring
 **99.9% accuracy | Zero data loss | 30-second real-time updates** | 🗄️ *Archived*
 
-Production Solana blockchain monitoring system with 99.9% accuracy versus professional trading platforms.
+Production Solana blockchain monitoring system with 99.9% accuracy versus
+professional trading platforms.
 
 - **Accuracy:** Reversed-engineered 281-byte binary blockchain data format
 - **Reliability:** 99.9% uptime across 15+ deployments, zero data loss
@@ -100,28 +126,15 @@ Production Solana blockchain monitoring system with 99.9% accuracy versus profes
 
 ---
 
-### [Docira](./projects/docira/) - AWS Serverless RAG System
-**90-minute build | <$5/month costs | 100+ MB PDFs**
-
-Complete AWS serverless RAG pipeline built in 90 minutes despite never using AWS before. Production-ready on first deployment.
-
-- **Speed:** Concept to production in 90 minutes (learning AWS from scratch)
-- **Scale:** Handles 100+ MB PDF files, multi-level extraction fallback
-- **Cost:** <$5/month AWS costs (Lambda + S3 + API Gateway)
-- **Tech:** AWS Lambda, S3, API Gateway, Claude API, React, Tailwind CSS
-
-[View Details →](./projects/docira/)
-
----
-
 ### [Financial Data Pipeline](./projects/financial-data-pipeline/) - Multi-API Integration
-**OAuth 2.0 | 1,000+ records | Currently in production**
+**OAuth 2.0 | 1,000+ records | Client delivery**
 
-Multi-API orchestration system integrating financial data APIs with automated Google Drive exports. Currently serving paying client.
+Multi-API orchestration system integrating financial data APIs with automated
+Google Drive exports. Delivered for paying client.
 
 - **Integration:** OAuth 2.0 authentication, Google Drive API, financial data APIs
 - **Web Interface:** Flask dashboard, role-based access control
-- **Status:** In production for paying client ($1,250 contract)
+- **Status:** Delivered for paying client ($1,250 contract)
 - **Tech:** Python, Flask, OAuth 2.0, Google Drive API, PostgreSQL
 
 [View Details →](./projects/financial-data-pipeline/)
@@ -131,21 +144,21 @@ Multi-API orchestration system integrating financial data APIs with automated Go
 ## 💼 What I Do
 
 **Core Competencies:**
-- 🤖 **AI Integration** - Claude API, OpenAI, custom prompt engineering
-- 🔄 **Workflow Automation** - n8n, Zapier, event-driven architectures
-- 📊 **API Development** - RESTful APIs, webhooks, OAuth 2.0
-- 💬 **Chatbot Development** - Telegram bots, mobile-first interfaces
-- ☁️ **AWS/Serverless** - Lambda, S3, API Gateway, cost-optimized architectures
-- 🗄️ **Database Design** - PostgreSQL optimization, large-scale data management
+- 🤖 **AI Integration** - Claude API, Gemini, multi-model architectures, RAG pipelines
 - ⚡ **Full-Stack TypeScript** - Next.js 14 App Router, Turso/libSQL, production deployments
-- 🔗 **Blockchain/DeFi** - Solana, binary data parsing, real-time monitoring
+- 🔄 **Workflow Automation** - n8n, event-driven architectures, zero-touch pipelines
+- 📊 **API Development** - RESTful APIs, webhooks, OAuth 2.0, multi-service orchestration
+- ☁️ **Cloud Infrastructure** - AWS Lambda/S3/API Gateway, Railway, DigitalOcean, Supabase
+- 🗄️ **Database Design** - PostgreSQL optimization, Turso/libSQL, large-scale data management
+- 🔗 **Blockchain/DeFi** - Solana, binary data parsing, real-time on-chain monitoring
 
 **Languages & Tools:**
-- **Languages:** Python (expert), JavaScript/Node.js, TypeScript, SQL
-- **Frameworks:** Flask, React, Next.js, n8n, Docker
-- **APIs:** Claude, OpenAI, Grok, Telegram, ClickUp, Stripe, AWS
-- **Databases:** PostgreSQL, Redis
-- **DevOps:** Docker Compose, SystemD, DigitalOcean, AWS
+- **Languages:** Python (expert), TypeScript, JavaScript/Node.js, SQL
+- **Frameworks:** Next.js, React, Flask, FastAPI, n8n, Docker
+- **AI/ML:** Claude API, Gemini API, OpenAI, RAG pipelines, Stockfish integration
+- **APIs:** Stripe, SendGrid, Telegram, ClickUp, Enrichlayer, Apify
+- **Databases:** PostgreSQL, Turso (libSQL), Supabase, Redis
+- **DevOps:** Railway, DigitalOcean, AWS, Docker Compose, PM2, Cloudflare Tunnel
 
 ---
 
@@ -154,15 +167,14 @@ Multi-API orchestration system integrating financial data APIs with automated Go
 | Metric | Achievement |
 |--------|-------------|
 | **Upwork Recognition** | ⭐ Rising Talent (Top 5% of New Freelancers - Feb 2026) |
-| **Production Uptime** | 99%+ (Anubis Bot: 220 days, Praxis Bot: 15+ deployments) |
+| **Production Uptime** | 99%+ (Pawnprint active, Anubis Bot 220 days, Praxis Bot 15+ deployments) |
+| **Live Product** | pawnprint.com — 5.4M puzzles, 8,543 RAG chunks, 100% tester retention |
+| **Client Delivery** | TalentSignals — 4/4 milestones, 39/39 tests, fully automated pipeline |
 | **Revenue Generated** | $480/month MRR (Anubis Bot subscribers) |
 | **Time Saved** | 8-10 hours/week (FreelanceOS automation) |
 | **Data Scale** | 54,000 events/day, 29GB database, 1.86M rows |
 | **Accuracy** | 99.9% (Praxis Bot vs professional platforms) |
-| **TalentSignals** | 4/4 milestones, 39/39 tests, fully automated monthly pipeline, live Stripe billing |
-| **Pawnprint** | 5.4M puzzles, 8,543 RAG chunks, 99% uptime, $60/month, 100% tester retention |
-| **Cost Efficiency** | $24/month (Docira serverless architecture) |
-| **Speed Advantage** | 6x delivery (AI augmentation) |
+| **Cost Efficiency** | $24/month (Docira serverless), $60/month (Pawnprint full-stack) |
 
 ---
 
@@ -172,15 +184,14 @@ Multi-API orchestration system integrating financial data APIs with automated Go
 1. **Understand the business problem** - Not just technical requirements
 2. **Design for production** - 99%+ uptime, real transactions, zero data loss
 3. **Build iteratively** - Ship fast, iterate based on real usage
-4. **Optimize for cost** - - $24/month AWS costs (Docira - active)
-5. **Mobile-first** - Systems I can manage from my phone
+4. **Optimize for cost** - Lean infrastructure that scales without surprise bills
+5. **Own the full stack** - Frontend to backend to deployment, no handoffs
 
 **What You Get:**
 - ✅ Production-grade code (not MVPs or demos)
 - ✅ Comprehensive error handling (graceful degradation)
 - ✅ Real-world testing (edge cases, concurrent access)
 - ✅ Cost-optimized architecture (no unnecessary spending)
-- ✅ Fast iteration cycles (AI-augmented development)
 - ✅ Same-day responses (EST timezone, <1 hour during business hours)
 
 ---
@@ -195,12 +206,13 @@ Multi-API orchestration system integrating financial data APIs with automated Go
 - 📧 **Email:** [cbosman@praxisprotocol.io](mailto:cbosman@praxisprotocol.io) - Direct contact
 
 **Best For:**
-- AI integration projects (Claude API, OpenAI, Grok API, custom prompts)
-- Workflow automation (n8n, Zapier, complex orchestration)
+- AI product development (RAG pipelines, multi-model architectures, edtech)
+- Full-stack TypeScript applications (Next.js, production deployments)
+- Automated B2B pipelines (data collection → analysis → delivery)
 - Production systems requiring 99%+ uptime
-- Telegram bot development (webhooks, payments, complex interactions)
 - AWS serverless architectures (Lambda, cost-optimized)
 - API integration (multi-service orchestration, OAuth 2.0)
+- Workflow automation (n8n, Zapier, complex orchestration)
 
 **Response Time:** <1 hour during business hours (9 AM - 6 PM EST)
 
@@ -212,42 +224,53 @@ Multi-API orchestration system integrating financial data APIs with automated Go
 
 ## 🏆 Why Work With Me
 
-**Production Focus:**
-Most developers ship "working" code. I ship production-grade systems that run 24/7 with real users and real money.
+**Production Standards:**
+Most developers ship working code. I ship systems with 99%+ uptime, real error
+handling, and zero data loss — proven across multiple production deployments.
 
-**AI Augmentation:**
-6x delivery speed through strategic Claude API integration - not using AI as a crutch, but as a force multiplier.
+**AI Architecture Depth:**
+I design AI pipelines correctly. Pawnprint's coaching system prevents hallucination
+by construction — Stockfish handles analysis, the LLM handles language. That
+separation matters in systems where accuracy counts.
+
+**Full-Stack Ownership:**
+Next.js frontend, Python/FastAPI backend, Railway/AWS/DigitalOcean deployment.
+One person handles the full stack — no coordination overhead, no handoffs.
 
 **Business Thinking:**
-I understand ROI, not just code. Built $480/month MRR system, understand customer support, make build/buy/maintain decisions.
+I understand ROI, not just code. Built $480/month MRR, delivered fully automated
+B2B pipelines, designed systems where variable cost per client is predictable.
 
 **Communication:**
-EST timezone with <1 hour response times. Same-day responses, daily updates, proactive problem notification.
+EST timezone with <1 hour response times. Same-day responses, daily updates,
+proactive problem notification.
 
 **Proven Track Record:**
+- 99% uptime, 100% tester retention (Pawnprint - live at pawnprint.com)
+- 4/4 milestones delivered, 39/39 tests passing (TalentSignals - complete)
 - 99% uptime over 220 days (Anubis Bot - archived)
 - 99.9% accuracy vs professional platforms (Praxis Bot - archived)
 - 80% time reduction (FreelanceOS - active)
-- <$5/month AWS costs (Docira - active)
-- Currently serving paying clients (Financial Data Pipeline - active)
-- 99% uptime, 100% tester retention (Pawnprint - active, pawnprint.com)
-- 4/4 milestones delivered, live in production (TalentSignals - complete)
+- $24/month serverless architecture (Docira - active)
+
 ---
 
 ## 📚 Case Studies
 
 ### [FreelanceOS: 80% Time Reduction Through AI Automation](./case-studies/freelanceos.md)
 
-**How I automated my entire Upwork workflow from 10+ hours/week to under 2 hours using n8n, Claude API, and Telegram Bot**
+**How I automated my entire Upwork workflow from 10+ hours/week to under 2 hours
+using n8n, Claude API, and Telegram Bot**
 
-Complete deep dive into the technical architecture, implementation timeline, and business impact of building an intelligent job screening and proposal generation system. Includes evaluation framework, proposal templates, performance metrics, and lessons learned.
+Complete deep dive into the technical architecture, implementation timeline, and
+business impact of building an intelligent job screening and proposal generation
+system.
 
 **Key Highlights:**
 - 100-point job evaluation matrix
 - Automated proposal generation with 95%+ first-draft quality
 - Real-time Telegram notifications
 - Time savings breakdown and ROI analysis
-- Future enhancement roadmap
 
 [Read Full Case Study →](./case-studies/freelanceos.md)
 
@@ -255,9 +278,11 @@ Complete deep dive into the technical architecture, implementation timeline, and
 
 ### [Anubis Bot: Building a $480/month SaaS in Production](./case-studies/anubis-bot.md)
 
-**Lessons learned building and maintaining a 71-microservice cryptocurrency platform serving 31 paying subscribers**
+**Lessons learned building and maintaining a 71-microservice cryptocurrency platform
+serving 31 paying subscribers**
 
-Complete story of building a production-grade cryptocurrency intelligence platform that achieved 99%+ uptime over 220 days while processing 54,000 events daily. Includes technical architecture, ML pipeline design, revenue model, and strategic shutdown decision.
+Complete story of building a production-grade cryptocurrency intelligence platform
+that achieved 99%+ uptime over 220 days while processing 54,000 events daily.
 
 **Key Highlights:**
 - 71 microservices orchestrated via SystemD
@@ -272,16 +297,17 @@ Complete story of building a production-grade cryptocurrency intelligence platfo
 
 ### [Praxis Bot: 99.9% Accuracy Through Binary Data Reverse Engineering](./case-studies/praxis-bot.md)
 
-**How I reverse-engineered Solana's 281-byte binary format and achieved 99.9% accuracy vs professional platforms**
+**How I reverse-engineered Solana's 281-byte binary format and achieved 99.9%
+accuracy vs professional platforms**
 
-Complete documentation of reverse-engineering methodology for parsing Solana blockchain transaction binaries. Includes systematic approach to format discovery, hypothesis testing, edge case handling, and continuous validation resulting in higher accuracy than commercial alternatives.
+Complete documentation of reverse-engineering methodology for parsing Solana
+blockchain transaction binaries.
 
 **Key Highlights:**
 - 281-byte binary format completely reverse-engineered
 - 99.9% accuracy validated against 1.5M+ transactions
 - Sub-millisecond parsing latency
 - Competitive comparison vs Helius, QuickNode, dexscreener
-- MEV detection and specialized capabilities
 
 [Read Full Case Study →](./case-studies/praxis-bot.md)
 
@@ -289,7 +315,8 @@ Complete documentation of reverse-engineering methodology for parsing Solana blo
 
 ## 💡 Technical Feasibility Consultations
 
-**Not sure if your AI/automation project is technically feasible?** Get expert assessment before committing to full development.
+**Not sure if your AI/automation project is technically feasible?** Get expert
+assessment before committing to full development.
 
 ### 30-Minute Technical Assessment - $75
 
@@ -301,7 +328,8 @@ Complete documentation of reverse-engineering methodology for parsing Solana blo
 - ✅ Written summary with actionable next steps
 
 **💰 Consultation Fee Credit:**
-If you hire me for the full project within 30 days, your **$75 consultation fee is fully credited** toward the project cost. Zero risk.
+If you hire me for the full project within 30 days, your **$75 consultation fee
+is fully credited** toward the project cost. Zero risk.
 
 ### Process:
 1. **Submit project details** via Upwork
@@ -310,7 +338,7 @@ If you hire me for the full project within 30 days, your **$75 consultation fee 
 4. **Receive written assessment** within 2 business days
 
 ### Best For:
-- 🏢 Teams evaluating AI integration feasibility (Claude API, OpenAI, automation)
+- 🏢 Teams evaluating AI integration feasibility (Claude API, RAG pipelines, automation)
 - 💼 Companies needing expert validation before budget approval
 - 🔍 Projects requiring independent technical assessment
 - 🤔 Second opinions on proposed technical approaches
@@ -319,12 +347,13 @@ If you hire me for the full project within 30 days, your **$75 consultation fee 
 ### Why Trust My Assessment?
 
 **Production-grade expertise, not theoretical knowledge:**
-- Built and operated **71-microservice cryptocurrency platform** with 99% uptime over 220 days
-- Currently running **AWS serverless systems** processing 54,000+ events daily
-- Automated **complex multi-API workflows** saving 8-10 hours/week
-- Real experience with **AI integration** (Claude, OpenAI, Grok), not just tutorials
+- Built and shipped a **live AI product** (pawnprint.com) with 99% uptime
+- Delivered **fully automated B2B pipeline** across four milestones for paying client
+- Built and operated **71-microservice cryptocurrency platform** over 220 days
+- Real experience with **AI integration** (Claude, Gemini, multi-model architectures)
 
-**I give honest recommendations** - if your project isn't technically feasible or cost-effective, I'll tell you upfront.
+**I give honest recommendations** - if your project isn't technically feasible
+or cost-effective, I'll tell you upfront.
 
 ---
 
@@ -339,21 +368,22 @@ Or email me for more info: [cbosman@praxisprotocol.io](mailto:cbosman@praxisprot
 ## 🎓 Background
 
 **Experience:**
-- Full-stack development (6 years)
-- Production systems architecture
-- AI/ML integration (Claude API, OpenAI, Grok API)
-- Teaching background (educational technology)
+- Full-stack development (TypeScript/Python, 6+ years)
+- Production AI systems architecture
+- AI/ML integration (Claude API, Gemini, multi-model pipelines)
+- Teaching background — homeschool educator, 5 kids, built edtech product from lived experience
 
 **Domain Expertise:**
+- EdTech (Pawnprint — chess coaching, age-adaptive AI, spaced repetition)
+- Finance/Trading (market data, real-time processing, DeFi)
+- B2B Intelligence (competitive analysis pipelines, automated reporting)
 - Healthcare/Insurance (HIPAA compliance understanding)
-- Finance/Trading (market data, real-time processing)
-- Blockchain/Cryptocurrency (DeFi, on-chain analysis)
-- Workflow automation (n8n, event-driven systems)
+- Blockchain/Cryptocurrency (Solana, DeFi, on-chain analysis)
 
 **Personal:**
 - Homeschool parent (5 kids)
 - EST timezone (North Carolina)
-- Flexible schedule with focused development blocks
+- Focused development blocks — async-friendly, reliable communication
 
 ---
 

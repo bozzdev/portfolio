@@ -46,7 +46,7 @@ language. Never the other way around.
 - **Innovation:** Three-layer deterministic + LLM pipeline; per-user vocabulary acquisition tracking across 7 exposures
 - **Tech:** Next.js 14, TypeScript, Turso, Stockfish 18, Gemini 2.5 Flash, SM-2, Glicko-1
 
-[View Details →](./projects/pawnprint/)
+[View Details](projects/pawnprint/) | [COPPA Case Study →](case-studies/pawnprint-coppa.html)
 
 
 ---

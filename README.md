@@ -79,7 +79,7 @@ serving 31 paying subscribers via Stripe integration.
 - **Business:** $480/month recurring revenue, real transactions, Stripe payments
 - **Tech:** Python (asyncio), PostgreSQL, Telegram bots, Docker, SystemD
 
-[View Details →](./projects/anubis-bot/)
+[View Details →](https://bozzdev.github.io/portfolio/projects/anubis-bot/) | [Read Case Study →](https://bozzdev.github.io/portfolio/case-studies/anubis-bot.html)
 
 ---
 
@@ -93,7 +93,7 @@ under 2 hours. Built with n8n, Claude Sonnet 4.5 API, ClickUp, and Telegram Bot.
 - **Tech:** n8n, Claude API, ClickUp API, Telegram Bot, Docker, PostgreSQL
 - **Innovation:** External prompts system - edit AI behavior via text files, no code changes
 
-[View Case Study →](./projects/freelanceos/)
+[View Details →](https://bozzdev.github.io/portfolio/projects/freelanceos/) | [Read Case Study →](https://bozzdev.github.io/portfolio/case-studies/freelanceos.html)
 
 ---
 
@@ -123,7 +123,7 @@ professional trading platforms.
 - **Scale:** 50+ positions per wallet, 30-second update intervals
 - **Tech:** Solana WebSocket API, Binary parsing, Telegram integration
 
-[View Details →](./projects/praxis-bot/)
+[View Details →](https://bozzdev.github.io/portfolio/projects/praxis-bot/) | [Read Case Study →](https://bozzdev.github.io/portfolio/case-studies/praxis-bot.html)
 
 ---
 

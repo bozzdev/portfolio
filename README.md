@@ -48,6 +48,7 @@ language. Never the other way around.
 
 [View Details →](./projects/pawnprint/)
 
+
 ---
 
 ### [TalentSignals](./projects/talentsignals/) - B2B Competitive Intelligence Platform

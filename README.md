@@ -151,6 +151,7 @@ Google Drive exports. Delivered for paying client.
 - ☁️ **Cloud Infrastructure** - AWS Lambda/S3/API Gateway, Railway, DigitalOcean, Supabase
 - 🗄️ **Database Design** - PostgreSQL optimization, Turso/libSQL, large-scale data management
 - 🔗 **Blockchain/DeFi** - Solana, binary data parsing, real-time on-chain monitoring
+* 🔒 **Privacy/Compliance** - COPPA Plan D posture, processor DPAs, written information security programs, append-only audit infrastructure, regulated-industry compliance build patterns transferable to HIPAA/FERPA/GDPR
 
 **Languages & Tools:**
 - **Languages:** Python (expert), TypeScript, JavaScript/Node.js, SQL
@@ -175,6 +176,7 @@ Google Drive exports. Delivered for paying client.
 | **Data Scale** | 54,000 events/day, 29GB database, 1.86M rows |
 | **Accuracy** | 99.9% (Praxis Bot vs professional platforms) |
 | **Cost Efficiency** | $24/month (Docira serverless), $60/month (Pawnprint full-stack) |
+| **Children's Privacy** | COPPA Plan D operative posture — 8 processor DPAs, formal § 312.4–312.10 self-assessment, append-only audit, end-to-end verified in production |
 
 ---
 
@@ -213,6 +215,8 @@ Google Drive exports. Delivered for paying client.
 - AWS serverless architectures (Lambda, cost-optimized)
 - API integration (multi-service orchestration, OAuth 2.0)
 - Workflow automation (n8n, Zapier, complex orchestration)
+- COPPA / children's privacy compliance (plan ladder articulation, processor DPAs, formal self-assessments, audit infrastructure)
+- Regulated-industry compliance posture (HIPAA, FERPA, GDPR, GLBA — same disciplined execution patterns, different subject matter)
 
 **Response Time:** <1 hour during business hours (9 AM - 6 PM EST)
 
@@ -256,6 +260,25 @@ proactive problem notification.
 ---
 
 ## 📚 Case Studies
+
+### [Pawnprint COPPA Compliance: Documented Good-Faith Children's Privacy Posture](https://bozzdev.github.io/portfolio/case-studies/pawnprint-coppa.html)
+
+**End-to-end COPPA implementation for a children's-data-handling commercial service — application infrastructure, procedural artifacts, and the discipline that held it together**
+
+Complete documentation of executing Plan D operative compliance posture across two structured workplans containing 21 phases. Both halves of compliance shipped: application infrastructure (verifiable parental consent, parental rights, append-only audit trails, soft-delete-then-purge) plus procedural infrastructure (eight processor DPAs, formal § 312.4–312.10 self-assessment, Plan D closure document, comprehensive self-audit). The patterns transfer to HIPAA, FERPA, GDPR, GLBA, and any regulated-industry compliance posture.
+
+**Key Highlights:**
+
+* 21 phases shipped across Workplan 2 (13 phases) and Workplan 3 (8 phases)
+* Eight processor relationships documented with written assurances
+* Formal § 312.X self-assessment plus Plan D closure document
+* End-to-end verified in production against real closed-beta cohort
+* Cross-document consistency: 15-of-15 + 10-of-10 probes passing at closure
+* Plan ladder with explicit escalation triggers (Plan C activates on first paying customer)
+
+[Read Full Case Study →](https://bozzdev.github.io/portfolio/case-studies/pawnprint-coppa.html)
+
+---
 
 ### [FreelanceOS: 80% Time Reduction Through AI Automation](./case-studies/freelanceos.md)
 

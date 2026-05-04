@@ -262,20 +262,21 @@ proactive problem notification.
 
 ## 📚 Case Studies
 
-### [Pawnprint COPPA Compliance: Documented Good-Faith Children's Privacy Posture](https://bozzdev.github.io/portfolio/case-studies/pawnprint-coppa.html)
+### [Pawnprint COPPA Compliance: A Children's Privacy Implementation Under the Amended 2025 Rule](https://bozzdev.github.io/portfolio/case-studies/pawnprint-coppa.html)
 
-**End-to-end COPPA implementation for a children's-data-handling commercial service — application infrastructure, procedural artifacts, and the discipline that held it together**
+**Comprehensive end-to-end COPPA compliance build for a children's-data-handling commercial service — application infrastructure, procedural artifacts, and the engineering discipline that made both survive audit**
 
-Complete documentation of executing Plan D operative compliance posture across two structured workplans containing 21 phases. Both halves of compliance shipped: application infrastructure (verifiable parental consent, parental rights, append-only audit trails, soft-delete-then-purge) plus procedural infrastructure (eight processor DPAs, formal § 312.4–312.10 self-assessment, Plan D closure document, comprehensive self-audit). The patterns transfer to HIPAA, FERPA, GDPR, GLBA, and any regulated-industry compliance posture.
+Twenty-one production phases across two structured workplans, built specifically against the amended 2025 Rule under the compliance deadline that just passed. Application infrastructure shipped: verifiable parental consent, six parental rights surfaces, two-tier authentication, append-only audit infrastructure enforced at the application code level, soft-delete-then-purge with anonymization on purge. Procedural infrastructure shipped: eight processor data processing agreements, privacy notice statically rendered from committed source, written data retention policy, formal § 312.4 through § 312.10 self-assessment, operative posture closure document, comprehensive self-audit. End-to-end-verified in production with cross-document consistency validated at closure (15-of-15 cross-artifact + 10-of-10 operational probes passing). The engineering discipline transfers to HIPAA, FERPA, GDPR, GLBA, PCI-DSS, and any regulated-industry compliance build.
 
 **Key Highlights:**
 
-* 21 phases shipped across Workplan 2 (13 phases) and Workplan 3 (8 phases)
-* Eight processor relationships documented with written assurances
-* Formal § 312.X self-assessment plus Plan D closure document
-* End-to-end verified in production against real closed-beta cohort
-* Cross-document consistency: 15-of-15 + 10-of-10 probes passing at closure
-* Plan ladder with explicit escalation triggers (Plan C activates on first paying customer)
+* 21 production phases across Workplan 2 (13 phases, application infrastructure) and Workplan 3 (8 phases, procedural artifacts)
+* Built against the amended 2025 Rule, not the legacy 2013 baseline
+* Eight processor data processing agreements with documented written assurances per § 312.8(c)
+* Formal § 312.4–312.10 self-assessment (~628 lines) plus operative posture closure document plus comprehensive self-audit (~828 lines)
+* End-to-end verified in production against real closed-beta cohort with full append-only audit trail across multiple policy versions
+* Plan ladder articulated with explicit escalation triggers — escalation paths from current posture to attorney engagement, expanded engagement, or Safe Harbor program participation, each with documented activation conditions
+* Engineering discipline transfers to HIPAA, FERPA, GDPR, GLBA, PCI-DSS, and any regulated-industry compliance build
 
 [Read Full Case Study →](https://bozzdev.github.io/portfolio/case-studies/pawnprint-coppa.html)
 

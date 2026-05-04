@@ -152,7 +152,7 @@ Google Drive exports. Delivered for paying client.
 - ☁️ **Cloud Infrastructure** - AWS Lambda/S3/API Gateway, Railway, DigitalOcean, Supabase
 - 🗄️ **Database Design** - PostgreSQL optimization, Turso/libSQL, large-scale data management
 - 🔗 **Blockchain/DeFi** - Solana, binary data parsing, real-time on-chain monitoring
-* 🔒 **Privacy/Compliance** - COPPA Plan D posture, processor DPAs, written information security programs, append-only audit infrastructure, regulated-industry compliance build patterns transferable to HIPAA/FERPA/GDPR
+- 🔒 **Privacy/Compliance** - End-to-end COPPA compliance under the amended 2025 Rule, processor data processing agreements, written information security programs, append-only audit infrastructure, plan-ladder posture scaling — engineering discipline transfers to HIPAA, FERPA, GDPR, GLBA, PCI-DSS
 
 **Languages & Tools:**
 - **Languages:** Python (expert), TypeScript, JavaScript/Node.js, SQL
@@ -177,7 +177,7 @@ Google Drive exports. Delivered for paying client.
 | **Data Scale** | 54,000 events/day, 29GB database, 1.86M rows |
 | **Accuracy** | 99.9% (Praxis Bot vs professional platforms) |
 | **Cost Efficiency** | $24/month (Docira serverless), $60/month (Pawnprint full-stack) |
-| **Children's Privacy** | COPPA Plan D operative posture — 8 processor DPAs, formal § 312.4–312.10 self-assessment, append-only audit, end-to-end verified in production |
+| **Children's Privacy** | End-to-end COPPA compliance under amended 2025 Rule — 21 production phases, 8 processor DPAs, formal § 312.4–312.10 self-assessment, append-only audit, end-to-end verified in production |
 
 ---
 

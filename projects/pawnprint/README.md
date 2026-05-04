@@ -84,31 +84,31 @@ competitor — which influences retrieval ranking and session composition.
 
 ## Children's Privacy & COPPA Compliance
 
-Pawnprint operates as a commercial online service that knowingly collects personal information from children under 13, putting it in scope for COPPA (16 CFR Part 312, as amended by the 2025 amendments effective June 23, 2025). The platform operates under documented good-faith COPPA Plan D compliance posture — both halves shipped, both halves verified in production.
+Pawnprint operates as a commercial online service that knowingly collects personal information from children under 13, putting it in scope for COPPA (16 CFR Part 312, as amended by the 2025 amendments effective June 23, 2025, with compliance deadline April 22, 2026 — passed). Pawnprint launched on the live amended Rule, not the legacy 2013 baseline that most operators in the market still target. The platform operates under a comprehensive end-to-end compliance build with both halves shipped: application infrastructure verified in production plus procedural artifacts audited for cross-document consistency.
 
 **Application infrastructure:**
 
-* Verifiable parental consent before collection (electronic-form variant of § 312.5(b)(2)(i) augmented with email-plus rigor)
-* Parental rights surfaces — review, export, delete, revoke, access log
-* Two-tier password policy (10+ chars adults, 12+ chars + special parents with linked children)
-* Append-only audit trail across three tables — every consent state change preserved indefinitely
-* 7-day soft-delete-then-purge for children's accounts with anonymization on purge
+* Verifiable parental consent before any collection of children's personal information, captured via electronic-form variant of § 312.5(b)(2)(i) augmented with email-plus rigor (magic-link delivery, 72-hour token TTL, IP and user-agent capture, typed signature, itemized acknowledgments)
+* Six parental rights surfaces — review consent history, export all child data, soft-delete with grace window, hard-purge with anonymization, revoke consent prospectively, view cross-user-boundary access log
+* Two-tier authentication with elevated requirements (12+ characters plus special character) for parents with linked children, no-downgrade rule preventing password removal while children active
+* Three append-only audit tables enforced at the application code level — no UPDATE or DELETE statements anywhere in production code
+* Bulk re-consent infrastructure firing automatically on policy version bumps with full audit trail across multiple policy versions
 
 **Procedural infrastructure:**
 
 * Eight processor data processing agreements documenting written assurances per § 312.8(c)
-* Termly Pro+ generated privacy notice live at /legal/privacy
-* Privacy contact form for unauthenticated parental requests
+* Privacy notice statically rendered from committed HTML source under deliberate version control
+* Privacy contact form for unauthenticated parental requests with verified delivery pipeline
 * Written data retention policy per § 312.10's 2025 amendment requirements
-* Formal § 312.4 through § 312.10 self-assessment as the centerpiece compliance reference
-* Plan D operative posture closure document with explicit Plan C / C-deeper / B / A escalation triggers
+* Formal § 312.4 through § 312.10 self-assessment (~628 lines) as the centerpiece compliance reference
+* Operative posture closure document with explicit escalation triggers for each higher-rigor posture
+* Comprehensive self-audit (~828 lines) cataloguing all 21 phases, locked decisions, deviations, and outstanding items
 
-**Verification:** end-to-end consent and re-consent flow tested in production against real closed-beta cohort with verified email delivery, append-only audit trail intact across multiple policy versions, and cross-document consistency validated (15-of-15 cross-artifact + 10-of-10 operational probes passing at closure).
+**Verification at closure:** end-to-end consent and re-consent flow tested in production against real closed-beta cohort with verified email delivery, append-only audit trail intact across multiple policy versions, and cross-document consistency validated (15-of-15 cross-artifact + 10-of-10 operational probes passing).
 
-For the full case study covering execution discipline, key architectural decisions, lessons captured, and how the patterns transfer to HIPAA / FERPA / GDPR / regulated-industry compliance more broadly, see: **[Pawnprint COPPA Compliance Case Study →](https://bozzdev.github.io/portfolio/case-studies/pawnprint-coppa.html)**
+For the full case study covering execution discipline, key architectural decisions, lessons captured, and how the engineering patterns transfer to HIPAA / FERPA / GDPR / GLBA / PCI-DSS / regulated-industry compliance more broadly, see: **[Pawnprint COPPA Compliance Case Study →](https://bozzdev.github.io/portfolio/case-studies/pawnprint-coppa.html)**
 
 ---
-
 ## Production Metrics
 
 | Metric | Value |
@@ -122,7 +122,7 @@ For the full case study covering execution discipline, key architectural decisio
 | Phase 0 testers | 7 |
 | Tester retention | 100% |
 | Billing | Stripe (pre-revenue phase) |
-| COPPA compliance posture | Plan D operative (documented good-faith, closed beta + soft launch suitable) |
+| COPPA compliance posture | Comprehensive end-to-end build under amended 2025 Rule — both halves shipped, audited at closure |
 
 ---
 
@@ -141,7 +141,7 @@ For the full case study covering execution discipline, key architectural decisio
 | Auth | JWT + TOTP 2FA |
 | Infrastructure | DigitalOcean, PM2, Cloudflare Tunnel |
 | CI/CD | GitHub SSH deploys |
-| Compliance | Termly Pro+, Resend (DKIM), Cloudflare Email Routing, append-only audit (3 tables), Plan D operative posture |
+| Compliance | Termly Pro+, Resend (DKIM), Cloudflare Email Routing, append-only audit (3 tables), formal § 312.X self-assessment, eight processor DPAs |
 
 ---
 

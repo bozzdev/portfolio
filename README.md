@@ -48,7 +48,6 @@ language. Never the other way around.
 
 [View Details](projects/pawnprint/) | [COPPA Case Study →](case-studies/pawnprint-coppa.html)
 
-
 ---
 
 ### [TalentSignals](./projects/talentsignals/) - B2B Competitive Intelligence Platform
@@ -142,6 +141,26 @@ Google Drive exports. Delivered for paying client.
 
 ---
 
+## 🛠️ Development Methodology
+
+### [Praxis SDD](https://github.com/bozzdev/praxis-sdd) - Spec-Driven Development for AI-Assisted Builds
+**Open source | MIT licensed | In active production use**
+
+A documented methodology for building software with AI coding agents without 
+shipping wrong things. Combines a pre-implementation articulation layer 
+(constitution → spec → plan → tasks) with investigation-first phase execution, 
+approval gates, and cross-artifact consistency verification at closure.
+
+- **Origin:** Derived from 21-phase COPPA compliance work for Pawnprint — 
+  discipline caught a Phase 3.5 spec-drift error before silent closure
+- **Includes:** 17 files covering the full build lifecycle, 3 real filled 
+  examples, token efficiency rules for Claude Code
+- **Compatible:** Claude Code, Cursor, Copilot Workspace, Codex CLI, Gemini CLI
+- **Tech:** Markdown templates | Claude Code | Any AI coding agent
+
+[View on GitHub →](https://github.com/bozzdev/praxis-sdd)
+
+---
 ## 💼 What I Do
 
 **Core Competencies:**

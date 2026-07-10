@@ -28,23 +28,25 @@ systems (71 microservices, 54K events/day, paying subscribers).
   deployment. One person, complete delivery.
 - 💡 **Teaching background** — I homeschool five kids and built an edtech product from
   that experience. I understand how people learn, not just how systems work.
+  
 
 ---
 
 ## 🚀 Featured Projects
 
 ### [SeekHim](https://seekhim.ai) - Historical Text Retrieval System
-**Live at [seekhim.ai](https://seekhim.ai) | Hybrid retrieval + reranking | Self-correcting ingestion**
+**Live at [seekhim.ai](https://seekhim.ai) | 12,262 indexed chunks & growing | Hybrid retrieval + reranking**
 
 Production RAG platform for high-precision search across historical religious and
 philosophical texts — the kind with inconsistent formatting and mixed scan quality
 that defeats naive search. Hybrid BM25 + vector retrieval fused via Reciprocal Rank
 Fusion, with cross-encoder reranking and parent-child chunking for exact-term precision.
 
-- **Retrieval:** Hybrid BM25 + dense vector (20 + 20 candidates) fused via RRF to top-10, with cross-encoder reranking
+- **Scale:** 12,262 indexed chunks and growing, on a pipeline built for safe corpus-wide re-ingestion
+- **Document intelligence:** Gemini-vision ingestion produces a per-document intelligence receipt; model selected via controlled multi-model benchmarking (baseline vs. prompt-engineered conditions, bias-separated analyst)
 - **Reliability:** Self-correcting six-stage ingestion pipeline auto-demotes documents when extraction coverage drops below threshold — fired unprompted on real data
 - **Correctness:** Solved near-duplicate retrieval-poisoning by treating dedup as a retrieval-correctness problem, not a hashing one
-- **Tech:** Next.js 15, FastAPI, PostgreSQL + pgvector, Celery, Redis, OpenAI embeddings
+- **Tech:** Next.js 15, FastAPI, PostgreSQL + pgvector, Celery, Redis, Gemini vision (document intelligence), OpenAI embeddings
 
 [View Live →](https://seekhim.ai)
 
@@ -179,7 +181,7 @@ approval gates, and cross-artifact consistency verification at closure.
 ## 💼 What I Do
 
 **Core Competencies:**
-- 🤖 **AI Integration** - Claude API, Gemini, multi-model architectures, RAG pipelines
+- 🤖 **AI Integration** - Claude API, Gemini, multi-model architectures, RAG pipelines (hybrid BM25 + vector retrieval, RRF fusion, cross-encoder reranking)
 - ⚡ **Full-Stack TypeScript** - Next.js 14 App Router, Turso/libSQL, production deployments
 - 🔄 **Workflow Automation** - n8n, event-driven architectures, zero-touch pipelines
 - 📊 **API Development** - RESTful APIs, webhooks, OAuth 2.0, multi-service orchestration
@@ -212,6 +214,7 @@ approval gates, and cross-artifact consistency verification at closure.
 | **Accuracy** | 99.9% (Praxis Bot vs professional platforms) |
 | **Cost Efficiency** | $24/month (Docira serverless), $60/month (Pawnprint full-stack) |
 | **Children's Privacy** | End-to-end COPPA compliance under amended 2025 Rule — 21 production phases, 8 processor DPAs, formal § 312.4–312.10 self-assessment, append-only audit, end-to-end verified in production |
+| **Retrieval Scale** | SeekHim — 12,262 indexed chunks & growing (live at seekhim.ai) |
 
 ---
 
@@ -291,6 +294,7 @@ proactive problem notification.
 - 99.9% accuracy vs professional platforms (Praxis Bot - archived)
 - 80% time reduction (FreelanceOS - active)
 - $24/month serverless architecture (Docira - active)
+- Hybrid-retrieval RAG with self-correcting ingestion (SeekHim - live at seekhim.ai)
 
 ---
 
@@ -438,6 +442,7 @@ Or email me for more info: [cbosman@praxisprotocol.io](mailto:cbosman@praxisprot
 - B2B Intelligence (competitive analysis pipelines, automated reporting)
 - Healthcare/Insurance (HIPAA compliance understanding)
 - Blockchain/Cryptocurrency (Solana, DeFi, on-chain analysis)
+- Information Retrieval (SeekHim — hybrid search, reranking, retrieval-correctness engineering)
 
 **Personal:**
 - Homeschool parent (5 kids)

@@ -33,6 +33,21 @@ systems (71 microservices, 54K events/day, paying subscribers).
 
 ## 🚀 Featured Projects
 
+### [SeekHim](https://seekhim.ai) - Historical Text Retrieval System
+**Live at [seekhim.ai](https://seekhim.ai) | Hybrid retrieval + reranking | Self-correcting ingestion**
+
+Production RAG platform for high-precision search across historical religious and
+philosophical texts — the kind with inconsistent formatting and mixed scan quality
+that defeats naive search. Hybrid BM25 + vector retrieval fused via Reciprocal Rank
+Fusion, with cross-encoder reranking and parent-child chunking for exact-term precision.
+
+- **Retrieval:** Hybrid BM25 + dense vector (20 + 20 candidates) fused via RRF to top-10, with cross-encoder reranking
+- **Reliability:** Self-correcting six-stage ingestion pipeline auto-demotes documents when extraction coverage drops below threshold — fired unprompted on real data
+- **Correctness:** Solved near-duplicate retrieval-poisoning by treating dedup as a retrieval-correctness problem, not a hashing one
+- **Tech:** Next.js 15, FastAPI, PostgreSQL + pgvector, Celery, Redis, OpenAI embeddings
+
+[View Live →](https://seekhim.ai)
+
 ### [Pawnprint](./projects/pawnprint/) - AI Chess Coaching Platform
 **Live at [pawnprint.com](https://pawnprint.com) | 99% uptime | 5.4M puzzles | 8,543-chunk RAG corpus**
 

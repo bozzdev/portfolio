@@ -181,7 +181,7 @@ approval gates, and cross-artifact consistency verification at closure.
 ## 💼 What I Do
 
 **Core Competencies:**
-- 🤖 **AI Integration** - Claude API, Gemini, multi-model architectures, RAG pipelines (hybrid BM25 + vector retrieval, RRF fusion, cross-encoder reranking)
+- 🤖 **AI Integration** - Claude API, Gemini, multi-model architectures, RAG pipelines (hybrid BM25 + vector retrieval, RRF fusion, cross-encoder reranking, multi-model benchmarking for model selection)
 - ⚡ **Full-Stack TypeScript** - Next.js 14 App Router, Turso/libSQL, production deployments
 - 🔄 **Workflow Automation** - n8n, event-driven architectures, zero-touch pipelines
 - 📊 **API Development** - RESTful APIs, webhooks, OAuth 2.0, multi-service orchestration
@@ -253,7 +253,7 @@ approval gates, and cross-artifact consistency verification at closure.
 - AWS serverless architectures (Lambda, cost-optimized)
 - API integration (multi-service orchestration, OAuth 2.0)
 - Workflow automation (n8n, Zapier, complex orchestration)
-- COPPA / children's privacy compliance (plan ladder articulation, processor DPAs, formal self-assessments, audit infrastructure)
+- COPPA/children's privacy compliance (plan ladder articulation, processor DPAs, formal self-assessments, audit infrastructure)
 - Regulated-industry compliance posture (HIPAA, FERPA, GDPR, GLBA — same disciplined execution patterns, different subject matter)
 
 **Response Time:** <1 hour during business hours (9 AM - 6 PM EST)
@@ -273,7 +273,10 @@ handling, and zero data loss — proven across multiple production deployments.
 **AI Architecture Depth:**
 I design AI pipelines correctly. Pawnprint's coaching system prevents hallucination
 by construction — Stockfish handles analysis, the LLM handles language. That
-separation matters in systems where accuracy counts.
+separation matters in systems where accuracy counts. On SeekHim, I selected the
+document-intelligence model through controlled benchmarking rather than guessing —
+baseline versus prompt-engineered conditions, with a bias-separated analyst model —
+because model choice in a retrieval system is an engineering decision, not a default.
 
 **Full-Stack Ownership:**
 Next.js frontend, Python/FastAPI backend, Railway/AWS/DigitalOcean deployment.
